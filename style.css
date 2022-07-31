@@ -1,0 +1,1096 @@
+.screen2-text section div:nth-child(4), .screen2-text section div:nth-child(3), .screen2-text section div:nth-child(2), .screen2-text section div:nth-child(1) {
+  width: 384px;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 18px 38px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #F0EBFA;
+}
+.screen2-text section div:nth-child(4) h2, .screen2-text section div:nth-child(3) h2, .screen2-text section div:nth-child(2) h2, .screen2-text section div:nth-child(1) h2 {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+.screen2-text section div:nth-child(4) p, .screen2-text section div:nth-child(3) p, .screen2-text section div:nth-child(2) p, .screen2-text section div:nth-child(1) p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.work-easier .desktop-icons2 div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 322px;
+  height: 138px;
+}
+.work-easier .desktop-icons2 div picture {
+  text-align: center;
+}
+.work-easier .desktop-icons2 div b {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+.work-easier .desktop-icons2 div p {
+  margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .work-easier .desktop-icons2 div {
+    display: flex;
+  }
+  .work-easier .desktop-icons2 div picture {
+    text-align: left;
+  }
+  .work-easier .desktop-icons2 div b {
+    margin-top: 24px;
+    text-align: left;
+  }
+  .work-easier .desktop-icons2 div p {
+    margin-top: 8px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 576px) {
+  .work-easier .desktop-icons2 {
+    display: flex;
+  }
+}
+
+.customers h2, .screen3-text div b {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 auto;
+  color: #35414B;
+  display: block;
+  text-align: center;
+}
+
+.customers p {
+  width: 322px;
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+
+.screen3-text div button, .work-easier button, .mail button {
+  width: 318px;
+  height: 52px;
+  background: #796EFF;
+  border: 1px solid #796EFF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 16px auto;
+  margin-bottom: 32px;
+  display: block;
+}
+.screen3-text div button a, .work-easier button a, .mail button a {
+  color: white;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+footer .footer-apple, footer .footer-gplay, .store .apple, .store .gplay {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 180px;
+  height: 55px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  justify-content: center;
+}
+footer .footer-apple img, footer .footer-gplay img, .store .apple img, .store .gplay img {
+  margin-right: 10px;
+}
+footer .footer-apple p, footer .footer-gplay p, .store .apple p, .store .gplay p {
+  font-family: "Inter";
+  font-size: 12px;
+  margin: 0;
+}
+footer .footer-apple b, footer .footer-gplay b, .store .apple b, .store .gplay b {
+  font-family: "Inter";
+  font-size: 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 576px) {
+  header {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 50px;
+  }
+}
+header picture {
+  margin-top: 32px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width: 576px) {
+  header picture {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 576px) {
+  header picture img {
+    height: 24px;
+    width: 92px;
+  }
+}
+header .desktop-4words {
+  display: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}
+header .desktop-4words p:nth-child(1)::after, header .desktop-4words p:nth-child(2)::after, header .desktop-4words p:nth-child(4)::after {
+  content: url("./img/Vector-black.svg");
+  margin-left: 5px;
+}
+header .desktop-4words p {
+  margin: 0;
+}
+@media screen and (min-width: 576px) {
+  header .desktop-4words {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+  }
+}
+header .desktop-login {
+  display: none;
+}
+header .desktop-login p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  margin-right: 16px;
+  cursor: pointer;
+}
+header .desktop-login button {
+  width: 169px;
+  height: 48px;
+  background: #ECE5FF;
+  border: 1px solid #ECE5FF;
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 0;
+}
+@media screen and (min-width: 576px) {
+  header .desktop-login {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+}
+header .desktop-login button a {
+  display: block;
+  color: #794CFF;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.menu {
+  margin-top: 32px;
+  margin-right: 15px;
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+.menu a p {
+  font-size: 8px;
+  font-family: "Inter";
+  margin: 0 auto;
+  text-align: right;
+}
+.menu a picture {
+  margin: 0;
+}
+@media screen and (min-width: 576px) {
+  .menu {
+    display: none;
+  }
+}
+
+main .green-btn {
+  width: 160px;
+  height: 21px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #F2F9EB;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 128px;
+}
+main .green-btn a {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #35414B;
+}
+@media screen and (min-width: 576px) {
+  main .green-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 300px;
+    height: 32px;
+    margin-top: 100px;
+  }
+}
+main .green-btn a:nth-child(2) {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  main .green-btn a:nth-child(2) {
+    display: flex;
+    width: 108px;
+    height: 32px;
+    background: #81C43B;
+    border-radius: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media screen and (min-width: 576px) {
+  main .green-btn a:nth-child(1) {
+    display: flex;
+    width: 210px;
+    height: 32px;
+    background: #F2F9EB;
+    border-radius: 0px 100px 100px 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+main h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 318px;
+  height: 120px;
+  margin: 16px auto;
+}
+@media screen and (min-width: 576px) {
+  main h1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 760px;
+    height: 144px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: #35414B;
+  }
+}
+main span:nth-child(3) {
+  margin: auto;
+  margin-bottom: 16px;
+  text-align: center;
+  width: 318px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  display: block;
+}
+@media screen and (min-width: 576px) {
+  main span:nth-child(3) {
+    width: 510px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4E5A65;
+    margin-bottom: 24px;
+  }
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 576px) {
+  .mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.mail input {
+  box-sizing: border-box;
+  width: 318px;
+  height: 52px;
+  left: 48px;
+  margin: auto;
+  margin-top: 0px;
+  background: #FFFFFF;
+  border: 1px solid #E1E5EA;
+  border-radius: 4px;
+}
+@media screen and (min-width: 576px) {
+  .mail input {
+    margin: 0;
+    width: 319px;
+    height: 52px;
+  }
+}
+.mail input::-moz-placeholder {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #97A5B5;
+}
+.mail input:-ms-input-placeholder {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #97A5B5;
+}
+.mail input::placeholder {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #97A5B5;
+}
+@media screen and (min-width: 576px) {
+  .mail input::-moz-placeholder {
+    text-align: left;
+    padding-left: 24px;
+  }
+  .mail input:-ms-input-placeholder {
+    text-align: left;
+    padding-left: 24px;
+  }
+  .mail input::placeholder {
+    text-align: left;
+    padding-left: 24px;
+  }
+}
+.mail button {
+  margin: 8px auto;
+  margin-bottom: 32px;
+  background: #794CFF;
+  border: 1px solid #794CFF;
+}
+@media screen and (min-width: 576px) {
+  .mail button {
+    margin: 0;
+    width: 164px;
+    height: 52px;
+  }
+}
+
+main picture:nth-child(5) img {
+  display: block;
+  margin: auto;
+  width: 384px;
+  height: 274px;
+  box-shadow: 0px 0px 48px -8px rgba(29, 40, 48, 0.18);
+}
+@media screen and (min-width: 576px) {
+  main picture:nth-child(5) img {
+    width: 920px;
+    height: 655px;
+    margin-top: 48px;
+  }
+}
+main p:nth-child(6) {
+  display: block;
+  width: 318px;
+  height: 11px;
+  margin-top: 57px;
+  margin-bottom: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+  color: #4E5A65;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 576px) {
+  main p:nth-child(6) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 397px;
+    height: 16px;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 57px;
+  gap: 32px;
+}
+@media screen and (min-width: 576px) {
+  .social {
+    gap: 140px;
+  }
+}
+.social div {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .social div {
+    display: block;
+  }
+}
+
+.screen2-text {
+  background-color: #FBFAFE;
+  padding-top: 32px;
+}
+@media screen and (min-width: 576px) {
+  .screen2-text {
+    display: flex;
+    padding: 60px 380px;
+    justify-content: space-between;
+  }
+}
+.screen2-text picture {
+  display: block;
+  margin: 0 auto;
+  width: 384px;
+  height: 303.09px;
+  margin-bottom: 33px;
+}
+@media screen and (min-width: 576px) {
+  .screen2-text picture {
+    margin: 0;
+  }
+}
+.screen2-text section div:nth-child(1) {
+  background-color: #F6F3FC;
+  border-bottom: 8px solid #794CFF;
+}
+@media screen and (min-width: 576px) {
+  .screen2-text section div:nth-child(1) {
+    border-left: 8px solid #794CFF;
+    border-bottom: none;
+    text-align: left;
+  }
+}
+.screen2-text section div:nth-child(2) {
+  padding: 26px 50px;
+  height: 128px;
+}
+@media screen and (min-width: 576px) {
+  .screen2-text section div:nth-child(2) {
+    text-align: left;
+  }
+}
+.screen2-text section div:nth-child(3) {
+  padding: 26px 53px;
+  height: 128px;
+}
+@media screen and (min-width: 576px) {
+  .screen2-text section div:nth-child(3) {
+    text-align: left;
+  }
+}
+.screen2-text section div:nth-child(4) {
+  padding: 26px 53px;
+  padding-bottom: 32px;
+  height: 134px;
+}
+@media screen and (min-width: 576px) {
+  .screen2-text section div:nth-child(4) {
+    border-bottom: none;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .work-easier {
+    padding: 0px 340px;
+  }
+}
+.work-easier b:first-child {
+  display: block;
+  margin-top: 56px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+@media screen and (min-width: 576px) {
+  .work-easier b:first-child {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 100px;
+  }
+}
+.work-easier .desktop-icons1 div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 322px;
+  height: 138px;
+}
+.work-easier .desktop-icons1 div picture {
+  text-align: center;
+}
+.work-easier .desktop-icons1 div b {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+.work-easier .desktop-icons1 div p {
+  margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .work-easier .desktop-icons1 div {
+    display: flex;
+    margin-top: 56px;
+  }
+  .work-easier .desktop-icons1 div picture {
+    text-align: left;
+  }
+  .work-easier .desktop-icons1 div b {
+    text-align: left;
+    margin-top: 24px;
+  }
+  .work-easier .desktop-icons1 div p {
+    margin-top: 8px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 576px) {
+  .work-easier .desktop-icons1 {
+    display: flex;
+  }
+}
+.work-easier .desktop-icons2 {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .work-easier .desktop-icons2 {
+    display: flex;
+  }
+}
+.work-easier button {
+  background: #ECE5FF;
+  border: 1px solid #ECE5FF;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 56px;
+}
+.work-easier button a {
+  text-align: center;
+  color: #7259FA;
+}
+@media screen and (min-width: 576px) {
+  .work-easier button {
+    display: none;
+  }
+}
+
+.screen3-text {
+  height: 561px;
+  width: 390px;
+  background-color: #FBFAFE;
+  padding-top: 32px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 576px) {
+  .screen3-text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 60px 380px;
+    align-items: center;
+    margin: 100px auto;
+    height: 540px;
+    width: auto;
+  }
+}
+.screen3-text picture {
+  display: block;
+  text-align: center;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 576px) {
+  .screen3-text div {
+    text-align: left;
+  }
+}
+.screen3-text div b {
+  margin-bottom: 16px;
+  width: 150px;
+  height: 48px;
+}
+@media screen and (min-width: 576px) {
+  .screen3-text div b {
+    width: 340px;
+    height: 100px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #35414B;
+  }
+}
+.screen3-text div p {
+  width: 322px;
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+@media screen and (min-width: 576px) {
+  .screen3-text div p {
+    text-align: left;
+    width: 415px;
+    height: 72px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .screen3-text div button {
+    text-align: center;
+    width: 165px;
+    height: 52px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+
+.customers h2 {
+  width: 200px;
+  height: 48px;
+  margin-top: 56px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 576px) {
+  .customers h2 {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 48px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #35414B;
+  }
+}
+.customers p {
+  width: 336px;
+  height: 160px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+@media screen and (min-width: 576px) {
+  .customers p {
+    width: 545px;
+    height: 100px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #4E5A65;
+    margin-bottom: 48px;
+  }
+}
+.customers section .customers-mobile {
+  display: flex;
+  flex-direction: column;
+}
+.customers section .customers-mobile img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 9px;
+}
+.customers section .customers-mobile b {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 13px;
+  color: #4E5A65;
+  text-align: center;
+}
+.customers section .customers-mobile p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #4E5A65;
+  text-align: center;
+  margin-top: 8px;
+}
+@media screen and (min-width: 576px) {
+  .customers section .customers-mobile {
+    display: none;
+  }
+}
+.customers section .customers-desktop {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .customers section .customers-desktop {
+    display: flex;
+    margin-bottom: 100px;
+    width: auto;
+    justify-content: space-between;
+    padding: 0 480px;
+  }
+}
+.customers section .customers-desktop div:nth-child(1) {
+  border-top: 4px solid #35414B;
+  padding: 24px;
+}
+.customers section .customers-desktop > div {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+.customers section .customers-desktop > div div {
+  text-align: left;
+}
+.customers section .customers-desktop > div div b {
+  width: auto;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #4E5A65;
+  margin-left: 16px;
+}
+.customers section .customers-desktop > div div p {
+  width: auto;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #4E5A65;
+  margin: 0;
+  margin-left: 16px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.store {
+  max-width: 1100px;
+  height: 292px;
+  background: #796EFF;
+  padding-top: 32px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 576px) {
+  .store {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 1100px;
+    height: 225px;
+  }
+}
+.store span {
+  width: 322px;
+  height: 64px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  display: block;
+}
+@media screen and (min-width: 576px) {
+  .store span {
+    text-align: left;
+    margin: 0;
+    width: 423px;
+    height: 96px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 576px) {
+  .store .gplay {
+    margin: 0;
+    margin-left: 145px;
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .store .apple {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 576px) {
+  .store {
+    display: flex;
+    align-items: center;
+    padding: 64px 80px;
+  }
+}
+
+footer {
+  background-color: #1D2830;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  width: auto;
+  height: 460px;
+  margin-top: 56px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 576px) {
+  footer {
+    padding: 64px 410px;
+    padding-right: 480px;
+    margin-top: 100px;
+    height: 340px;
+  }
+}
+@media screen and (min-width: 576px) {
+  footer .footer-about {
+    display: none;
+  }
+}
+footer .footer-about p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  margin-top: 0px;
+}
+footer .footer-about p:nth-child(1)::after, footer .footer-about p:nth-child(2)::after, footer .footer-about p:nth-child(3)::after {
+  content: url("./img/Vector.svg");
+  margin-left: 100%;
+}
+footer .footer-about p:nth-child(1), footer .footer-about p:nth-child(2), footer .footer-about p:nth-child(3) {
+  margin-bottom: 32px;
+}
+footer .footer-gplay {
+  background-color: black;
+  border: 1px solid white;
+  margin-left: 0;
+  margin-bottom: 18px;
+}
+@media screen and (min-width: 576px) {
+  footer .footer-gplay {
+    display: none;
+  }
+}
+footer .footer-gplay b {
+  color: white;
+}
+footer .footer-gplay p {
+  color: white;
+}
+footer .footer-apple {
+  background-color: black;
+  border: 1px solid white;
+  margin-left: 0;
+}
+@media screen and (min-width: 576px) {
+  footer .footer-apple {
+    display: none;
+  }
+}
+footer .footer-apple b {
+  color: white;
+}
+footer .footer-apple p {
+  color: white;
+}
+footer .footer-dsk {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  footer .footer-dsk {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+  }
+}
+footer .footer-dsk .apple-dsk {
+  display: flex;
+}
+footer .footer-dsk .gplay-dsk {
+  display: flex;
+}
+footer .footer-dsk div ul {
+  margin: 0px;
+  text-decoration: none;
+  padding: 0;
+}
+footer .footer-dsk div ul li {
+  margin-bottom: 24px;
+  list-style: none;
+}
+footer .footer-dsk div ul li a {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.disclaimer {
+  width: auto;
+  height: 78px;
+  box-sizing: border-box;
+  padding: 32px 47px;
+  background-color: #1D2830;
+}
+@media screen and (min-width: 576px) {
+  .disclaimer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 410px;
+    height: 80px;
+    border-top: 1px solid rgb(58, 58, 58);
+  }
+}
+.disclaimer span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #D9DBE1;
+}
+.disclaimer .disclaimer-icons {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .disclaimer .disclaimer-icons {
+    display: flex;
+    gap: 24px;
+  }
+}
+.disclaimer .disclaimer-icons a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
